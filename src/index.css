@@ -34,7 +34,6 @@
   text-fill-color: transparent;
 }
 
-
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -74,7 +73,38 @@
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #f09c9e 0.89%, /* Change color stop to #f09c9e */
+    #f5a4a6 17.23%, /* Adjust to a slightly different shade of pink */
+    #f09c9e 42.04%, /* Change color stop to #f09c9e */
+    #f5a4a6 55.12%, /* Adjust to a slightly different shade of pink */
+    #f09c9e 71.54%, /* Change color stop to #f09c9e */
+    #f5a4a6 100% /* Adjust to a slightly different shade of pink */
+  );
+}
+.fading-edge {
+  position: relative;
+}
+
+.fading-edge::before,
+.fading-edge::after {
+  content: '';
+  position: absolute;
+  top: -5px; /* Adjust as needed */
+  bottom: -5px; /* Adjust as needed */
+  left: -5px; /* Adjust as needed */
+  right: -5px; /* Adjust as needed */
+  pointer-events: none;
+  z-index: 1; /* Ensure it's above the image */
+}
+
+.fading-edge::before {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white 20%);
+}
+
+.fading-edge::after {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white 20%);
 }
 
 .box-shadow {

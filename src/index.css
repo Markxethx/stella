@@ -21,12 +21,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #f09c9e 0.89%, /* Change color stop to #f09c9e */
-    #f09c9e 17.23%, /* Change color stop to #f09c9e */
-    #f09c9e 42.04%, /* Change color stop to #f09c9e */
-    #f09c9e 55.12%, /* Change color stop to #f09c9e */
-    #f09c9e 71.54%, /* Change color stop to #f09c9e */
-    #f09c9e 100% /* Change color stop to #f09c9e */
+    #ffec00 0.89%, /* Change color stop to #ffec00 */
+    #ffec00 17.23%, /* Change color stop to #ffec00 */
+    #ffec00 42.04%, /* Change color stop to #ffec00 */
+    #ffec00 55.12%, /* Change color stop to #ffec00 */
+    #ffec00 71.54%, /* Change color stop to #ffec00 */
+    #ffec00 100% /* Change color stop to #f9037d */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -75,12 +75,12 @@
 .bg-discount-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #f09c9e 0.89%, /* Change color stop to #f09c9e */
-    #f5a4a6 17.23%, /* Adjust to a slightly different shade of pink */
-    #f09c9e 42.04%, /* Change color stop to #f09c9e */
-    #f5a4a6 55.12%, /* Adjust to a slightly different shade of pink */
-    #f09c9e 71.54%, /* Change color stop to #f09c9e */
-    #f5a4a6 100% /* Adjust to a slightly different shade of pink */
+    #f7f5ff 0.89%, /* Change color stop to #f7f5ff */
+    rgba(234,245,255,255) 17.23%, /* Adjust to a slightly different shade of pink */
+    #f7f5ff 42.04%, /* Change color stop to #f7f5ff */
+    rgba(234,245,255,255) 55.12%, /* Adjust to a slightly different shade of pink */
+    #f7f5ff 71.54%, /* Change color stop to #f7f5ff */
+    rgba(234,245,255,255) 100% /* Adjust to a slightly different shade of pink */
   );
 }
 .fading-edge {

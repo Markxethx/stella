@@ -8,14 +8,14 @@ const Hero = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-          <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">20%</span> Discount For{" "}
-            <span className="text-white">1 Month</span> Account
+          <p className={`${styles.paragraph} text-[#f9037d] ml-2`}>
+            <span className="text-[#f9037d]">20%</span > Discount For{" "}
+            <span className="text-[#f9037d]">1 Month</span> Account
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-[#fbdb1c] ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-[#f7f5ff] ss:leading-[100.8px] leading-[75px]">
             The Quimbo <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Official</span>{" "}
           </h1>
@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-[#fbdb1c] ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-[#f7f5ff] ss:leading-[100.8px] leading-[75px] w-full">
           Services.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
